@@ -1,0 +1,5 @@
+services:
+  background_queue.commands:
+    class: \Drupal\background_queue\Commands\BackgroundQueueRun
+    tags:
+      - { name: drush.command }

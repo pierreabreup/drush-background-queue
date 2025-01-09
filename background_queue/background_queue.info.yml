@@ -1,0 +1,7 @@
+name: 'Background Queue'
+type: module
+description: 'Run all drupal queues in background'
+core_version_requirement: ^10
+package: Drush
+dependencies:
+  - drupal:config
